@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patrick R. Wong</title>
+
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,700;1,400&display=swap" rel="stylesheet">   
+    
+    <script src="https://kit.fontawesome.com/181d01fd2e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <nav id="navbar" class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
+		<a href="#" class="navbar-brand">PATRICK R. WONG</a>
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon">
+		</button>
+		<div id="navLinks" class="collapse navbar-collapse">
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<a href="#welcome-section" class="nav-link">HOME</a>
+				</li>
+				<li class="nav-item">
+					<a href="#about-section" class="nav-link">ABOUT</a>
+				</li>
+				<li class="nav-item">
+					<a href="#projects" class="nav-link">PORTFOLIO</a>
+				</li>
+				<li class="nav-item">
+					<a href="#connect" class="nav-link">CONNECT</a>
+				</li>
+			</ul>	
+		</div>
+	</nav>
+
+    <section id="welcome-section">
+        <img class="bg-img" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
+        <div id="intro-text">
+            <h1>Hello! I'm Patrick.</h1>
+            <p> I am
+                <span class="role" data-wait="3000" data-words='["a Front End Web Developer.","a Mobile App Developer.", "a Self-taught Programmer."]'></span>
+            </p>
+        </div>
+    </section>
+    
+    <section id="about-section" class="container-fluid px-0">
+        <div class="row align-items-center" class="about">
+            <div class="col-md-6 text-center order-1 order-md-2 win">
+                <h2>First, a little bit about me...</h2>
+                <img src="assets/photos/prwimg.png" alt="Patrick Wong" id="profileimg">
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0" id="about-me">
+                        <p>
+                            I'm a self-taught web devloper with an eye for visual design, and a goal of creating beautiful,
+                            interactive applications for web and mobile devices.
+                        </p>
+                        <p>
+                            My current stack includes: HTML 5, CSS 3, JavaScript, React, Bootstrap, Sass, node.js, 
+                            jQuery, Express.js, Dart, Flutter, and Unity for game development.
+                        </p>
+                        <p>
+                            I hope to use what I've learned so far to build stylistic and fully-functional pages that are accessible
+                            on the web and by phone. In the process I hope to learn more and be able to develop my skills in Front End
+                            development. Lets start building together! 
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <section id="projects">
+        <div class="carousel-title">
+            <h2>Here's what I've done so far...</h2>   
+        </div>
+        <div class="carousel-container">
+
+            <div class="slide">
+                <a href="https://codepen.io/prwong/pen/gOaNOyX" target="_blank" id="project-tile">
+                    <img src="assets/photos/js.jpeg" id="lastClone" alt="JS Docs">
+                </a>
+                <a href="https://codepen.io/prwong/pen/rNOgjRa" target="_blank" id="project-tile">         
+                    <img src="assets/photos/uplift.jpeg" alt="Uplift website">
+                </a>
+                <a href="https://codepen.io/prwong/pen/qBOvEpJ" target="_blank" id="project-tile"> 
+                    <img src="assets/photos/survey.jpeg" alt="Travel Survey">
+                </a>
+                <a href="https://codepen.io/prwong/pen/LYpqzxV" target="_blank" id="project-tile"> 
+                    <img src="assets/photos/tribute.jpg" alt="Tribute Page">
+                </a>
+                <a href="https://codepen.io/prwong/pen/gOaNOyX" target="_blank" id="project-tile"> 
+                    <img src="assets/photos/js.jpeg" alt="JS Docs">
+                </a>
+                <a href="https://codepen.io/prwong/pen/rNOgjRa" target="_blank" id="project-tile"> 
+                    <img src="assets/photos/uplift.jpeg" id="firstClone" alt="Uplift website">
+                </a>
+           </div>
+           <i class="fas fa-arrow-circle-right" id="nextBtn"></i>
+           <i class="fas fa-arrow-circle-left" id="prevBtn"></i>
+        </div>
+    </section> 
+
+    <section id="connect" class="container-fluid px-0">
+        <div class="row align-items-center">
+            <div class="col-md-6 text-center order-1 order-md-2">
+                <h2 id="resume">...or if you prefer my work on paper...</h2>
+            </div>
+            <div class="col-md-6 text-center order-1 order-md-2" id="about-me">
+                <div class="row justify-content-center">
+                    <div class="col-10 col-lg-8 blurb mb-5 mb-md-0">
+                        <h2 class="first">Reach out! Lets talk about changing the world!</h2>
+                        <a href="mailto:patrickrwong11@gmail.com" id="profile-link"><i class="fa fa-envelope"></i></a>
+	                    <a href="https://github.com/patrickrWong" target="_blank" id="profile-link"><i class="fab fa-github"></i></a>
+	                    <a href="https://www.linkedin.com/in/patrickrwongjr/" target="_blank" id="profile-link"><i class="fab fa-linkedin"></i></a>
+	                    <a href="https://codepen.io/prwong" target="_blank" id="profile-link"><i class="fab fa-codepen"></i></a>
+	                    <a href="https://www.instagram.com/thisisapatsnackattack/" target="_blank" id="profile-link"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/webpage.js"></script>
+</body>
+</html>
