@@ -4,74 +4,74 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Patrick R. Wong</title>
-
+    <link rel="icon" href="assets/photos/favicon.png">
     <link rel="stylesheet" type="text/css" href="assets/style.css">
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" 
           integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,700;1,400&display=swap" rel="stylesheet">   
-    
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Playfair+Display:wght@400;700&family=Work+Sans&display=swap" rel="stylesheet">    
+      
     <script src="https://kit.fontawesome.com/181d01fd2e.js" crossorigin="anonymous"></script>
 </head>
 <body>
-    <nav id="navbar" class="navbar navbar-dark bg-dark navbar-expand-md fixed-top">
-		<a href="#" class="navbar-brand">PATRICK R. WONG</a>
-		<button class="navbar-toggler" data-toggle="collapse" data-target="#navLinks" aria-label="Toggle navigation">
-			<span class="navbar-toggler-icon">
-		</button>
-		<div id="navLinks" class="collapse navbar-collapse">
-			<ul class="navbar-nav ml-auto">
-				<li class="nav-item">
-					<a href="#welcome-section" class="nav-link">HOME</a>
-				</li>
-				<li class="nav-item">
-					<a href="#about-section" class="nav-link">ABOUT</a>
-				</li>
-				<li class="nav-item">
-					<a href="#projects" class="nav-link">PORTFOLIO</a>
-				</li>
-				<li class="nav-item">
-					<a href="#contact-section" class="nav-link">CONNECT</a>
-                </li>
-                <li class="nav-item">
-					<a href="assets/resume.pdf" class="nav-link">CV</a>
-				</li>
-			</ul>	
-		</div>
-	</nav>
+    <nav>
+        <div class="caption">
+            <p class="comment">(click anywhere...trust me.)</p>
+        </div>
+        <ul class="navLinks">
+            <li class="nav-item">
+                <a href="#about-section" class="nav-link">ABOUT</a>
+            </li>
+            <li class="nav-item">
+                <a href="#project-section" class="nav-link">PORTFOLIO</a>
+            </li>
+            <li class="nav-item">
+                <a href="#contact-section" class="nav-link">CONNECT</a>
+            </li>
+            <li class="nav-item">
+                <a href="assets/resume.pdf" class="nav-link" target="_blank">CV</a>
+            </li>
+        </ul>
+    </nav>
 
     <section id="welcome-section">
-        <img class="bg-img" src="https://images.unsplash.com/photo-1517694712202-14dd9538aa97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1050&q=80">
-        <div id="intro-text">
-            <h1>Hello! I'm Patrick.</h1>
-            <p> I am
-                <span class="role" data-wait="3000" data-words='["a Front End Web Developer.","a Mobile App Developer.", "a Self-taught Programmer."]'></span>
-            </p>
+        <div class="intro-text">
+            <h1>Hello! My name is <span>Patrick</span>.</h1>
+            <h1>I'm a <span>Web Developer</span> with an eye for <span>design</span>.</h1>
+        </div>
+        <div class="intro-buttons">
+            <h3 class="butn"><a href="assets/resume.pdf" target="_blank" style="text-decoration: none; color: white;">View CV</h3></a>
+            <h3 class="butn scrolling">View More</h3>
         </div>
     </section>
     
     <section id="about-section" class="container-fluid px-0">
         <div class="row align-items-center" class="about">
-            <div class="col-md-6 text-center order-1 order-md-2 win">
-                <h2>First, a little bit about me...</h2>
+            <div class="col-lg-6 text-center order-1 order-md-2 win">
+                <h2>Who am I, you ask?...</h2>
                 <img src="assets/photos/prwimg.png" alt="Patrick Wong" id="profileimg">
             </div>
-            <div class="col-md-6 text-center order-1 order-md-2">
+
+            <div class="col-lg-6 text-center order-1 order-md-2">
                 <div class="row justify-content-center">
                     <div class="col-10 col-lg-8 blurb mb-5 mb-md-0" id="about-me">
                         <p>
-                            I'm a self-taught web devloper with an eye for visual design, and a goal of creating beautiful,
+                            I'm a Front-End web developer with a passion for clean and creative design, and a vision of crafting beautiful,
                             interactive applications for web and mobile devices.
                         </p>
                         <p>
-                            My current stack includes: HTML 5, CSS 3, JavaScript, React, Bootstrap, Sass, node.js, 
-                            jQuery, Express.js, Dart, Flutter, and Unity for game development.
+                            My current stack integrates the core technologies of HTML, CSS, and JavaScript, while utilizing the frameworks 
+                            and libraries from jQuery, React, Bootstrap, and Sass to build dynamic websites. 
                         </p>
                         <p>
-                            I hope to use what I've learned so far to build stylistic and fully-functional pages that are accessible
-                            on the web and by phone. In the process I hope to learn more and be able to develop my skills in Front End
-                            development. Lets start building together! 
+                            I am well-versed in Node.js, and Express 
+                            Back-End technologies, while rounding out with Dart, Flutter software, and Unity game engine for mobile app and 
+                            video game development.
+                        </p>
+                        <p>
+                            My goal is to create stylistic and fully-functional pages that are also innovative. In the process I hope to learn more, 
+                            and be able to develop my skills in Front End development and UI/UX. Lets start building together! 
                         </p>
                     </div>
                 </div>
@@ -79,41 +79,30 @@
         </div>
     </section>
 
+    <section id="project-section">
+        <h2 class="title">PROJECTS</h2>
+        
+        <div class="portfolio">
+            <a href="https://codepen.io/prwong/full/rNOgjRa" target="_blank" class="project-tile">
+                <img src="assets/photos/uplift.jpeg" alt="Uplift" class="image">
+            </a>
 
+            <a href="https://codepen.io/prwong/full/LYpqzxV" target="_blank" class="project-tile">
+                <img src="assets/photos/tribute.jpg" alt="Lady Gaga" class="image">
+            </a>
 
-    <section id="projects">
-        <div class="carousel-title">
-            <h2>Here's what I've done so far...</h2>   
-        </div>
-        <div class="carousel-container">
+            <a href="https://codepen.io/prwong/full/qBOvEpJ" target="_blank" class="project-tile">
+                <img src="assets/photos/survey.jpeg" alt="Travel Survey" class="image">
+            </a>
 
-            <div class="slide">
-                <a href="https://codepen.io/prwong/pen/gOaNOyX" target="_blank" id="project-tile">
-                    <img src="assets/photos/js.jpeg" id="lastClone" alt="JS Docs">
-                </a>
-                <a href="https://codepen.io/prwong/pen/rNOgjRa" target="_blank" id="project-tile">         
-                    <img src="assets/photos/uplift.jpeg" alt="Uplift website">
-                </a>
-                <a href="https://codepen.io/prwong/pen/qBOvEpJ" target="_blank" id="project-tile"> 
-                    <img src="assets/photos/survey.jpeg" alt="Travel Survey">
-                </a>
-                <a href="https://codepen.io/prwong/pen/LYpqzxV" target="_blank" id="project-tile"> 
-                    <img src="assets/photos/tribute.jpg" alt="Tribute Page">
-                </a>
-                <a href="https://codepen.io/prwong/pen/gOaNOyX" target="_blank" id="project-tile"> 
-                    <img src="assets/photos/js.jpeg" alt="JS Docs">
-                </a>
-                <a href="https://codepen.io/prwong/pen/rNOgjRa" target="_blank" id="project-tile"> 
-                    <img src="assets/photos/uplift.jpeg" id="firstClone" alt="Uplift website">
-                </a>
-           </div>
-           <i class="fas fa-arrow-circle-right" id="nextBtn"></i>
-           <i class="fas fa-arrow-circle-left" id="prevBtn"></i>
+            <a href="https://codepen.io/prwong/full/gOaNOyX" target="_blank" class="project-tile">
+                <img src="assets/photos/js.jpg" alt="JavaScript Docs" class="image">
+            </a>
         </div>
     </section> 
 
-    <section id="contact-section" class="container-fluid">
-        <div class="hero">
+    <section id="contact-section">
+        <div class="hero" class="container-fluid">
             <h2 class="first">Reach out! Lets talk about changing the world!</h2>
                 <div id="connect" class="text-center">
                     <a href="mailto:patrickrwong11@gmail.com" id="profile-link"><i class="fa fa-envelope"></i></a>
@@ -123,8 +112,12 @@
                     <a href="https://www.instagram.com/thisisapatsnackattack/" target="_blank" id="profile-link"><i class="fab fa-instagram"></i></a>
                 </div>   
         </div>    
+        <div class="outro">
+            Inspired by many. Built by Patrick Wong. ©2020
+        </div>
     </section>
 
+    <script defer src="https://unpkg.com/smoothscroll-polyfill@0.4.4/dist/smoothscroll.min.js"></script>
     <script src="assets/js/webpage.js"></script>
 </body>
 </html>
