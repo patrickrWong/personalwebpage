@@ -56,7 +56,7 @@
 }
 
 .caption.seen{
-    opacity: 1;
+    opacity: 10;
     transition: all 0.5s 1s;
     color: black;
     z-index: 200;
@@ -194,7 +194,7 @@ span{
 }
 
 .project-tile {
-    background: #f0cb59;
+    /*background: #f0cb59;*/
     overflow: hidden;
 }
 
