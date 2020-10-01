@@ -199,8 +199,15 @@ span{
 }
 
 .image:hover{
-    transform: scale(1.2);
     opacity: .8;
+    background-color: white;
+}
+
+.text{
+    text-align: center;
+    padding-top: 8px;
+    color: white;
+    font-weight: 500;
 }
 
 /* Contact */ 
